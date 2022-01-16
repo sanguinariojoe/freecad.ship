@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>Ship</name>
+  <description>Set of naval architecture tools</description>
+  <version>0.0.3</version>
+  <date>2022-01-16</date>
+  <maintainer email="jlcercos@gmail.com">Jose Luis Cercos-Pita</maintainer>
+  <license file="LICENSE">GPLv2</license>
+  <url type="repository" branch="main">https://github.com/FreeCAD/freecad.ship</url>
+  <icon>freecad/ship/resources/icons/Ship_Logo.svg</icon>
+
+  <content>
+    <workbench>
+      <name>Ship</name>
+      <description>Set of naval architecture tools</description>
+      <classname>Ship</classname>
+      <icon>resources/icons/Ship_Logo.svg</icon>
+      <tag>ship</tag>
+      <tag>naval</tag>
+
+      <depend>Plot</depend>
+    </workbench>
+  </content>
+
+</package> 
